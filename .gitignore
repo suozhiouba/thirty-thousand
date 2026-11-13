@@ -1,0 +1,23 @@
+# IDE and local build settings
+.gradle/
+.idea/
+local.properties
+*.iml
+
+# Generated output and signing material
+build/
+app/build/
+deliverables/
+*.apk
+*.idsig
+*.keystore
+*.jks
+*.p12
+*.pem
+*.key
+
+# Local environment and developer handoff notes
+.env
+.env.*
+DEV_PROGRESS_LOG.md
+docs/DESIGN.md
